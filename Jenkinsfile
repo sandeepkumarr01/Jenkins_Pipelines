@@ -4,13 +4,8 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'echo 'Hello World' > sample.txt'
+                sh 'echo 'Hello World' > sample1.txt'
 		    }
 		}
-	    stages('sandy'){
-		    steps{
-			    sh 'echo 'hello sandy' > sandy1.txt
-		    }
-	    }
 	}
 }
