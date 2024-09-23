@@ -9,7 +9,7 @@ pipeline {
 		}
 	    stages('sandy'){
 		    steps{
-			    sh 'echo 'hello sandy''
+			    sh 'echo 'hello sandy' > sandy1.txt
 		    }
 	    }
 	}
